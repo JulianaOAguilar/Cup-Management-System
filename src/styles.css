@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+.btn-green-custom {
+     transition: 0.2s ease;
+  background-color: #003215;
+  color: white;
+}
+
+.btn-green-custom:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.text-green-custom {
+  color: #003215;
+}
+
+
+.btn-yellow-custom {
+    transition: 0.2s ease;
+  background-color: #FCD400;
+  color: black;
+}
+
+.btn-yellow-custom:hover {
+  background-color: #dac03e;
+  color: black;
+}
+
+.bg-green-custom {
+  background-color: #003215;
+}
