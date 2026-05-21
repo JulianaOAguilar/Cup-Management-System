@@ -6,10 +6,21 @@ import { App } from './app';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeaderComponent } from './components/shared/header-component/header-component';
 import { FooterComponent } from './components/shared/footer-component/footer-component';
-
+import { TeamFormComponent } from './components/team/team-form-component/team-form-component';
+import { TeamListComponent } from './components/team/team-list-component/team-list-component';
+import { TournamentFormComponent } from './components/tournament/tournament-form-component/tournament-form-component';
+import { TournamentListComponent } from './components/tournament/tournament-list-component/tournament-list-component';
 
 @NgModule({
-  declarations: [App, HeaderComponent, FooterComponent],
+  declarations: [
+    App,
+    HeaderComponent,
+    FooterComponent,
+    TeamFormComponent,
+    TeamListComponent,
+    TournamentFormComponent,
+    TournamentListComponent,
+  ],
   imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [provideBrowserGlobalErrorListeners()],
   bootstrap: [App],

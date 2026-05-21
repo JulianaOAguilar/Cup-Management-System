@@ -28,3 +28,18 @@
 .bg-green-custom {
   background-color: #003215;
 }
+
+.btn-outline-green-custom {
+        transition: 0.2s ease;
+    color: #003215;
+    border-color: #003215;
+    border-width: 2px;
+
+}
+
+.btn-outline-green-custom:hover {
+    background-color: #003215;
+    color: #ffffff;
+    border-color: #000703;
+
+}
