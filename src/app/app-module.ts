@@ -10,6 +10,7 @@ import { TeamFormComponent } from './components/team/team-form-component/team-fo
 import { TeamListComponent } from './components/team/team-list-component/team-list-component';
 import { TournamentFormComponent } from './components/tournament/tournament-form-component/tournament-form-component';
 import { TournamentListComponent } from './components/tournament/tournament-list-component/tournament-list-component';
+import { HomeComponent } from './components/home-component/home-component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { TournamentListComponent } from './components/tournament/tournament-list
     TeamListComponent,
     TournamentFormComponent,
     TournamentListComponent,
+    HomeComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [provideBrowserGlobalErrorListeners()],
